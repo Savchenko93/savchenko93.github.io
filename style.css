@@ -79,3 +79,43 @@ body {
 	background-color: white;
 	color: #2c71b8;
 }
+.col-md-8 {
+	position: relative;
+}
+.search {
+	margin-left: 30px;
+	margin-top: 5px;
+	height: 40px;
+	padding-left: 19px;
+	border: 1px solid #2c71b8;
+}
+.search::placeholder {
+	color:#2c71b8;
+}
+.submit {
+	height: 30px;
+	width: 30px;
+	background-color: #2c71b8;
+	padding: 0;
+	position: absolute;
+	right: 5px;
+	top: 10px;
+	border: none;
+}
+.submit::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.submit:hover {
+	background: #0b7dda;
+}
+.cart {
+	display: block;
+	width: 40px;
+	height: 40px;
+	background: url(images/icon.png) no-repeat;
+	margin-left: 30px;
+	background-color: white;
+	margin-top: 5px;
+}
