@@ -5,12 +5,12 @@ body {
 	font-family: Roboto;
 	background-image: url(images/patt.png);
 }
-
+	/* Header */
 .container {
 	width: 1170px;
 	margin: 0 auto;
 }
-.row:after, .menu:after {
+.row:after, .menu:after, .row_2:after {
 	content: '';
 	display: block;
 	clear: both;
@@ -132,4 +132,39 @@ body {
 	color: white;
 	font-size: 12px;
 	padding-top:3px;
+}
+		/* Main */
+.main_container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.col-lg-3 {
+	width: 25%;
+}
+.col-lg-9 {
+	width: 75%;
+	position: relative;
+}
+.col-lg-4 {
+	width: 25%;
+}
+.characteristics {
+	border-right: 1px solid white;
+}
+.home_page {
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 24px;
+	color:white;
+}
+.laptop {
+	display: inline;
+	text-decoration: underline;
+	color:white;
+}
+.laptops_and_tablets {
+	 font-weight: bold;
+	 font-size: 48px;
+	 margin-left: 30px;
+	 color: white;
 }
