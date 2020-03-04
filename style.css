@@ -6,6 +6,7 @@ body {
 	background-image: url(images/patt.png);
 }
 	/* Header */
+
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -33,6 +34,7 @@ body {
 	float: left;
 	border-left: 1px solid #2c71b8;
 	position: relative;
+	z-index: 10;
 }
 .menu li:last-child {
 	border-right: 1px solid #2c71b8;
@@ -119,6 +121,7 @@ body {
 	margin-top: 5px;
 	margin-left: 30px;
 	position: relative;
+	background-position: center;
 }
 .count_of_purchases {
 	position: absolute;
