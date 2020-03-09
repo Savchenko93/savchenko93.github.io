@@ -1,0 +1,14 @@
+#text {
+	display: none;
+}
+label:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	border:1px solid red;
+	cursor: pointer;
+}
+input[type="checkbox"]:checked + label:before {
+	background-color: red;
+}
