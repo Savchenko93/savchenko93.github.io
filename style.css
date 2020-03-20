@@ -248,7 +248,7 @@ input[type="submit"] {
   opacity: .7;
   display: block;
 }
-.teamPhotos >a:hover > .twitterOnImage {
+.teamPhotos > a:hover > .twitterOnImage {
   display: block;
 }
 .socialButtonsOnImage {
@@ -262,6 +262,7 @@ input[type="submit"] {
   height: 50px;
   background-color: black;
   margin-right: 1px;
+  display: none;
 }
 /* .socialButtonsOnImage:hover {
   background-color: rgba(0,0,0,0.7)
