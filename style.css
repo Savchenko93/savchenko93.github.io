@@ -1,54 +1,47 @@
-* {
+{
   box-sizing: border-box;
 }
+
 .header {
-	background-color: #1d2126;
-  font-family: 'Open Sans', sans-serif ;
+  background-color: #1d2126;
+  font-family: 'Open Sans', sans-serif;
 }
 .main {
-  font-family: 'Open Sans', sans-serif ;
-  height: 2000px;
+  font-family: 'Open Sans', sans-serif;
 }
 .col-md-3 {
-  width:25%;
-}
-.col-md-12 {
-  width: 1140px;
-  margin: 0 auto;
-}
-.col-md-9 {
-  width:75%;
+  width: 25%;
 }
 .col-md-6 {
   width: 50%;
 }
+.col-md-4 {
+  width: 33%;
+}
 .col-md-7 {
   width: 58.3%;
-  width: 1140px;
-  margin: 0 auto;
 }
 .col-md-5 {
-  width: 41.7%;
+  width: 41.7%
 }
 .container {
   width: 1140px;
   margin: 0 auto;
-  height: 80px;	
+}
+.head-container {
   display: flex;
+  height: 80px;
+  align-items: center;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
 }
-
 .menu {
-  display: flex;  
-  list-style-type: none;  
+  display: flex;
+  list-style-type: none;
 }
-
 .menu li {
-	width: 100px;	
+  width: 100px; 
 }
-
 .menu_link {
   display: block;
   height: 30px;
@@ -115,30 +108,36 @@ input[type="submit"] {
     background: #1d2126 url(images/icon1.png) no-repeat 50% 50%; 
     cursor: pointer;   
    }
-
 .offer {
-  height: 635px; 
+  height: 635px;
   margin: 0 auto;
-  background: url(images/img2.png) no-repeat 70% 70%;
+  background: url(images/img2.png) no-repeat 65% 65%;
   background-size: 100%;
   color: white;
 }
-
 .title {
- padding-top: 220px;
+  padding-top: 220px;
 }
 .title__heading {
   font-size: 36px;
   text-align: left;
   line-height: 72px;
-/*   margin-left: -470px; */
+
   font-weight: 400;
 }
 .title__description {
-/*   margin-left: -470px; */
   line-height: 22px;
   font-size: 16px;
   font-weight: 300;
+}
+.mainTitle {
+  width: 1140px;
+  margin: 0 auto;
+}
+.row {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
 }
 .view__more, .video__tour {
   width: 125px;
@@ -163,7 +162,7 @@ input[type="submit"] {
   position: relative;
   margin-top: 86px;
 }
-.weAreModest {
+.mainTitleHeader {
   position: absolute;
   left: 25px;
   top: 0px;
@@ -171,45 +170,23 @@ input[type="submit"] {
   font-size: 36px;
   width: 300px;
 }
-.row {
-  position: relative;
-}
-.ourMission {
-  left: 0;
-  margin-top: 63px;
-  width: 58.3%;
-  flex: 7;
-  width: 649px;
-  color: #abadaf;
+.ourMission, .ourGoals {
   line-height: 1.5;
+  margin-top: 63px;
+  color: #8d8f92;
 }
 .ourGoals {
-  position: absolute;
-  flex: 5;
-  width: 41.7%;
-  top: 63px;
-  color: #abadaf;
+  margin-left: 104px;
 }
-.mainContainer {
-  display: flex;
-  width: 1140px;
-  margin: 0 auto;
-  height: 80px; 
-   
-}
-.row {
-  display: flex;
+.sitAmet {
+  color: black;
 }
 .firstGoal, .secondGoal, .thirdGoal {
   position: relative;
-  line-height: 36px;
-  margin-top: 25px;
   padding: 0;
   color: black;
   width: 380px;
-}
-.firstGoal {
-  margin-top: -5px;
+  margin-bottom: 18px;
 }
 .firstNumberOfGoal, .secondNumberOfGoal, .thirdNumberOfGoal {
   position: absolute;
@@ -222,48 +199,38 @@ input[type="submit"] {
   line-height: 50px;
   color:white;
 }
-.sitAmet {
-  color: #8d8f92;
-}
-.socialButtons {
-  position: relative;
+.firstPGoal, .secondPGoal{
+  margin-bottom: 35px;
 }
 .firstPGoal, .secondPGoal, .thirdPGoal {
-  margin-top: 5px;
   width: 380px;
-  line-height: 1.5;
-}
-
-.basket {
-  left:61px;
-}
-.twitter {
-  left: 122px;
-}
-.google {
-  left:183px;
-}
-.Be {
-  left:244px;
-}
-.separator {
-  background-color: #dde1e4;
-  height: 1px;
-  width: 100%;
-  margin-top: 460px;
 }
 .facebook, .basket, .twitter, .google, .Be {
   background-color: #c8cdd0;
   width: 60px;
   height: 60px;
-  margin-top: 54px;
-  position: absolute;
+  margin-right: 1px;
   text-align: center;
   line-height: 100px;
 }
-.teamPhotos {
+.containerSocialButtons {
   display: flex;
-  margin-top: 60px;
+  margin-top: 54px;
+  margin-bottom: 99px;
+}
+.separator {
+  background-color: #dde1e4;
+  height: 1px;
+  width: 100%;
+ }
+ .teamPhotos {
+  display: flex;
+  margin-top: 63px;
+  font-weight: 300;
+  position: relative;
+ }
+.gloriaBromley, .judithGillette, .paulTorres, .deloresReed{
+  padding: 20px;
 }
 .teamPhotos > a  {
   margin-right: 30px;
@@ -275,12 +242,28 @@ input[type="submit"] {
   color: #a3a6a9;
   font-size: 14px;
 }
-.gloriaBromley {
-  height: 75px;
-}
-.gloriaBromley, .judithGillette, .paulTorres, .deloresReed{
-  padding: 20px;
-}
 .teamPhotos > a:hover {
-  background-color: #c9cbcc;
+  background-color: black;
+  color:white;
+  opacity: .7;
+  display: block;
 }
+.socialButtonsOnImage {
+  position: absolute;   
+  left: 60px;
+  display: flex;
+  top: 125px;
+}
+.twitterOnImage, .facebookOnImage, .linkedInOnImage {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  margin-right: 1px;
+
+}
+.twitterOnImage:hover {
+  display: flex;
+}
+/* .socialButtonsOnImage:hover {
+  background-color: rgba(0,0,0,0.7)
+} */
