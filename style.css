@@ -1,4 +1,4 @@
-{
+* {
   box-sizing: border-box;
 }
 
@@ -242,20 +242,21 @@ input[type="submit"] {
   color: #a3a6a9;
   font-size: 14px;
 }
-.teamPhotos > a:hover {
+.teamPhotos > a:hover{
   background-color: black;
   color:white;
   opacity: .7;
-  display: block;
 }
-.teamPhotos > a:hover > .twitterOnImage {
+/* .teamPhotos a:hover .socialButtonsOnImage {
   display: block;
-}
+} */
+
 .socialButtonsOnImage {
   position: absolute;   
   left: 60px;
   display: flex;
   top: 125px;
+
 }
 .twitterOnImage, .facebookOnImage, .linkedInOnImage {
   width: 50px;
@@ -267,3 +268,95 @@ input[type="submit"] {
 /* .socialButtonsOnImage:hover {
   background-color: rgba(0,0,0,0.7)
 } */
+.aboutTeamContainer {
+  margin-bottom: 100px;
+}
+.lovelyWorkContainer {
+  background-color: #3a454d;
+  margin-top: 100px;
+  height: 900px;
+}
+.mainTitleHeaderBlackColor {
+  color:white;
+  position: absolute;
+  left: 25px;
+  top: 0px;
+  display: block;
+  font-size: 36px;
+  width: 300px;
+}
+.rectangleDecorationWhite {
+  width: 10px;
+  height: 35px;
+  background-color: #4e5a62;
+  position: relative;
+}
+.mainTitleBlack {
+  width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 63px;
+  padding-top: 86px;
+}
+.photoWorksContainer, .photoWorksSecondRow {
+  display: flex;
+}
+.photoWorks {
+  margin-right: 30px;
+  width: 360px;
+  height: 265px;
+}
+.photoWorksSecondRow {
+  padding-top: 30px;
+}
+.showMeMore {
+  border: 1px solid white;
+  padding: 15px 20px;
+  background-color: #3a454d;
+  color: white;
+  border-radius: 5px;
+  width: 160px;
+  height: 40px;
+  font-size: 14px;
+  padding-top: 12px;
+}
+.buttonShowMore {
+  margin-top: 60px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.showMeMore:hover {
+  cursor: pointer;
+}
+.captionToPhotoWorks {
+  position: absolute;
+  bottom: 0px;
+  width: 360px;
+  height: 60px;
+  background-color: black;
+  padding: 20px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  display: none;
+}
+.photoWorksContainer {
+  position: relative;
+}
+.photoWorksContainer > a:hover {
+  opacity: 0.3;
+}
+.photoWorksContainer > a:hover .captionToPhotoWorks {
+  display: block;
+}
+.photoWorksContainer:hover .addButtonHref{
+  display: block;
+}
+.addButtonHref {
+  position: absolute;
+  left: 160px;
+  top: 110px;
+  display: none;
+}
+.photoWorksSecondRow >a:hover {
+  opacity: 0.3;
+}
