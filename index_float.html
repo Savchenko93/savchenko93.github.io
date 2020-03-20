@@ -1,477 +1,101 @@
 <!DOCTYPE html>
-<html lang = "eng">
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Shop-Project</title>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700&display=swap" rel="stylesheet">
-	<link rel="stylesheet"  href="reset.css">
-	<link rel="stylesheet"  href="style_float.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="reset.css">
+	<meta charset="UTF-8">
+	<title>Blog</title>
 </head>
 <body>
 	<header class="header">
 		<div class="container">
-			<div class="row">
+			<div class="head-container">
 				<div class="col-md-3">
-					
-						<a href="">
-							<img src="image/logo.png" id="logo">
-						</a>
-					
+					<div class="logo">
+						<img src="images/modest.png" alt="MODEST.">
+					</div>
 				</div>
 				<div class="col-md-6">
 					<nav>
-						<ul class="menu">
-							<li>
-								<a href="">Home</a>
-							</li>
-							<li><a href="">Products</a>
-								<div class="arrow">></div>							
-								<ul class="submenu">
-									<li>
-										<a href="">Lorem ipsum dolor</a>
-									</li>
-									<li>
-										<a href="">Sit amet</a>
-									</li>
-									<li>
-										<a href="">Consectetur adipisicing</a>
-									</li>
-									<li>
-										<a href="">Tempor incididunt</a>
-									</li>
-									<li>
-										<a href="">Dolore magna aliqua</a>
-									</li>
-									<li>
-										<a href="">Ut enim ad minim veniam</a>
-									</li>
-									<li>
-										<a href="">Quis nostrud</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="">Payment</a>
-							</li>
-							<li>
-								<a href="">Shipping</a>
-							</li>
+						<ul class="menu"> 
+	           				<li><a href="" id="menu_link">HOME</a></li>
+							<li><a href="point" class="menu_link">ABOUT</a></li>
+							<li><a href="" class="menu_link">WORK</a></li>
+							<li><a href="" class="menu_link">TEAM</a></li>  
+				            <li><a href="" class="menu_link">SERVICES</a></li>
+				            <li><a href="" class="menu_link">FEATURES</a></li>
+				            <li><a href="" class="menu_link">CONTACT</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div class="col-md-3">
-					<div class="col-75">
-						<form  action="" method="post">
-							<div class="form">
-								<input class="search" type="text" name="search" placeholder="search">
-								<button >
-									<div class="lupa"></div>
-								</button>
-							</div>
-						</form>
-					</div>
-					<div class="col-25">
-						<div class="cart">
-							<div class="bin"></div>
-						</div>
-						<div class="counter">
-							<span id="products-count">0</span>
-						</div>
-					</div>
+        			<div class="search">
+				        <input type="text" placeholder="SEARCH">
+				        <input type="submit" value="">
+    				</div>       
 				</div>
 			</div>
 		</div>
 	</header>
-	<main>
-		<div class="slider">
-			<div class="slider-box">
-			  <div>Slide #1</div>
-
+	<div class="offer">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="title">
+					<h1 class="title__heading">WELCOME TO OUR MARKETPLACE</h1>
+					<p class="title__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor <br>
+					non, ornare sagittis dolor. Nulla vestibulu lacus ...</p>
+			    </div>
+	        	<div class="title__buttons">
+		            <button class="view__more">VIEW MORE</button>
+		            <button class="video__tour">VIDEO TOUR</button>
+	        	</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="box">
-				<div class="col-md-3">
-					<div class="sidebar">
-					<div class="device">
-						<p><span>DEVICE TYPE</span></p>
-						<form action="" method="">
-							<input type="checkbox" id="Laptop">
-							<label for="Laptop">Laptop</label>
-							<input type="checkbox" id="Tablet">
-							<label for="Tablet">Tablet</label>
-						</form>
-					</div>
-					<div class="color">
-						<p><span>COLOR</span></p>
-						<form action="" method="">
-							<input type="checkbox" id="Black">
-							<label for="Black">Black</label>
-							<input type="checkbox" id="Red">
-							<label for="Red">Red</label>
-							<input type="checkbox" id="Green">
-							<label for="Green">Green</label>
-							<input type="checkbox" id="Blue">
-							<label for="Blue">Blue</label>
-							<input type="checkbox" id="Orange">
-							<label for="Orange">Orange</label>
-						</form>
-					</div>
-					<div class="ram">
-						<p><span>RAM</span></p>
-						<form action="" method="">
-							<input type="checkbox" id="1GB">
-							<label for="1GB">1GB</label>
-							<input type="checkbox" id="2GB">
-							<label for="2GB">2GB</label>
-							<input type="checkbox" id="4GB">
-							<label for="4GB">4GB</label>
-							<input type="checkbox" id="6GB">
-							<label for="6GB">6GB</label>
-							<input type="checkbox" id="8GB">
-							<label for="8GB">8GB</label>
-						</form>
-					</div>
-					<div class="Show_more_options">
-						<p>Show more options ...</p>
-					</div>
-					<div class="submit">
-						<form action="" method="">
-							<button>SUBMIT</button>
-						</form>
-					</div>
+	</div>
+	<main class="main">
+		<div class="aboutTeamContainer">
+			<div class="aboutContainer">
+				<div class="mainTitle">
+					<div class="rectangleDecoration">
+						<h1 class="mainTitleHeader">WE ARE MODEST.</h1>
 					</div>
 				</div>
-				<div class="col-md-9">
-					<div class="prod_head">
-						<div class="bread">
-							<ul class="breadcrumbs">
-							  <li><a href="#">Home page  ></a></li>
-							  <li><a href="#">Products  ></a></li>
-							  <li><a href="#" class="current">Laptops and Tablets</a></li>							  
-							</ul>
-						</div>
-						<div class="prod">
-							<div class="heading">
-								<h1>Laptops and Tablets</h1>
-							</div>							
-								<ul class="sorting_menu">
-									<li>
-										<a href="#">sort by price</a>
-										<div class="arrow">></div>
-										<ul class="sorting_submenu">
-											<li><a href="#">sort by name</a></li>
-											<li><a href="#">sort by date</a></li>
-											<li><a href="#">sort by popularity</a></li>
-										</ul>
-									</li>
-								</ul>							
+				<div class="row">
+					<div class="col-md-7">
+						<div class="ourMission"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi metus, tristique ndolor non, ornare sagittis dolor. Nulla vestibulu lacus sed molestie gravida. Crferm entum  quismagna congue, vel sodales arcu vestibulum. Nunc lobortis dui magna, quis lacusullamcorper at.</p> <br>
+            <br>
+            			<p>Phasellus sollicitudin ante eros ornare, <span class="sitAmet">sit amet luctus lorem semper</span>. Suspendisse posuere, quamdictum consectetur, augue metus pharetra tellus, eu feugiatloreg egetnisi. Cras ornare bibendum ante, ut bibendum odio convallis eget. vel sodales arcu vestibulum</p></div>
+					<div class="socialButtons">
+						<div class="containerSocialButtons">
+							<a href="" class="facebook"><img src="images/icon (6).png"></a>
+							<a href="" class="twitter"><img src="images/icon (5).png"></a>
+							<a href="" class="google"><img src="images/icon (4).png"></a>
+							<a href="" class="basket"><img src="images/icon (3).png"></a>
+							<a href="" class="Be"><img src="images/icon (2).png"></a>
 						</div>
 					</div>
-					<div class="row">
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (17).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#1 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$599<sup> 25</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (9).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#2 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$1250<sup> 99</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (10).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#3 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$399<sup> 50</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (16).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#1 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$599<sup> 25</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (14).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#2 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$1250<sup> 99</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (12).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#3 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$399<sup> 50</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (15).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#1 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$599<sup> 25</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (11).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2>#2 Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$1250<sup> 99</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="productCard">
-							<div class="head">
-								<div class="headImg">
-									<img src="image/icon (10).png">
-								</div>
-								<div class="extend">
-									<div class="extendImg"></div>
-								</div>
-								<div class="heart">
-									<div class="heartImg"></div>
-								</div>
-							</div>
-							<div class="description">
-								<h2># Device Name</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur  adipisicing elit.</p>
-								<p><span>TYPE:</span> Laptop</p>
-								<p><span>SCREEN SIZE:</span> 7 inches</p>
-								<p><span>RAM:</span> 1GB</p>
-								<p class="price"><span>$399<sup> 50</sup></span></p>
-								<div class="details">
-									<a href="#">MORE DETAILS</a>
-								</div>
-								<br>
-								<div class="add-to-cart">
-									<button>ADD TO CART</button>
-									<div class="cart1">
-										<div class="bin1"></div>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
-					<div class="loadMore">
-						<p>Load more ...</p>
+					<div class="col-md-5">
+						<div class="ourGoals">
+				            <h2 class="firstGoal">DEDICATION TO THE CUSTOMERS
+				             <div class="firstNumberOfGoal">01</div>
+				            </h2>
+				            <p class="firstPGoal">Integer vel lacus non dui ullamcorper venenatis. Aliquam vitae tristique nisi, vitae ullamcorper risus </p>
+				            <h2 class="secondGoal">WORKING CLOSELY WITH OUR CLIENTS
+				            <div class="secondNumberOfGoal">02</div>
+				            </h2>
+				            <p class="secondPGoal">Sed blandit nisi urna, sed pellentesque enim consectetur vitae. Suspendisse ut vehicula nibh.</p>
+				            <h2 class="thirdGoal">INCREASE HAPPINESS
+				            <div class="thirdNumberOfGoal">03</div>
+				            </h2>
+				            <p class="thirdPGoal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eleifend laoreet euismod.</p>
 					</div>
 				</div>
 			</div>
+			<div class="teamContainer"></div>
 		</div>
-	</main>	
-	<footer class="footer">
-		<div>
-			<p>© Copyright 2017</p>
-		</div>
-	</footer>
-	
-
+	</main>
+	<footer class="footer">FOOTER</footer>
 </body>
-<html>
+</html>
