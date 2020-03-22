@@ -360,3 +360,118 @@ input[type="submit"] {
 .photoWorksSecondRow >a:hover {
   opacity: 0.3;
 }
+.logoServices {
+  margin-top: 93px;
+  text-align: center;
+}
+.headerServices {
+  margin-top: 35px;
+  margin-bottom: 28px;
+  text-align: center;
+  color: #292f36;
+}
+.textServices {
+  color: #8d8f92;
+  text-align: center;
+  margin-right: 27px;
+  line-height: 1.5;
+}
+.firstRowServices, .secondRowServices {
+  display: flex;
+}
+.featuresContainer {
+  background-color: #3a454d;
+  margin-top: 100px;
+  height: 750px;
+}
+.featuresHeader {
+  margin-top: 54px;
+  color:white;
+  margin-bottom: 29px;
+}
+.featuresText {
+  color: white;
+  line-height: 1.5;
+}
+.featuresContentContainer {
+  display: flex;
+}
+.productDesign, .colorfulLogos {
+  margin-right: 30px;
+}
+.mapImage {
+  margin-top: 63px;
+  height: 346px;
+  background: url("images/img (1).png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+.contactInformationHeader {
+  margin-top: 60px;
+  margin-bottom: 39px;
+  color: black;
+}
+.contactInformationText {
+  color: #abadaf;
+  line-height: 1.5;
+}
+.velSodales {
+  color: black;
+}
+.form{
+  width: 555px;
+  height: 400px;
+  background-color: white;
+  position: relative;
+  z-index: 5;
+  display: flex;
+}
+.name {
+  width: 240px;
+  height: 44px;
+}
+.email {
+  width: 240px;
+  height: 44px;
+}
+.message {
+  width: 495px;
+  height: 159px;
+}
+.formSubmitButton {
+  background-color: #23b7a4;
+  height: 40px;
+  width: 147px;
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+}
+/* .footerContainer {
+  width: 1140px;
+  margin: 0 auto;
+} */
+.footer {
+  background-color:#3a454d;
+  padding-top: 40px;
+  padding-bottom: 37px;
+  color: white;
+}
+.rowFooter {
+  width: 1140px;
+  margin: 0 auto;
+}
+.buttonsFooter {
+  
+  display: flex;
+  justify-content: flex-end;
+}
+.leftsideFooter {
+  position: relative;
+}
+.buttonsFooter {
+  position: absolute;
+  right: 0;
+  top: -16px;
+}
